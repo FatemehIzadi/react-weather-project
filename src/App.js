@@ -1,9 +1,10 @@
 import "./styles.css";
+import WeatherApp from "./Components/WeatherApp";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <WeatherApp />
     </div>
   );
 }
